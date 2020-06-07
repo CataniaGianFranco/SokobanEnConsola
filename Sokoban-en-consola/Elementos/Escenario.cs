@@ -7,15 +7,15 @@ using System.Threading.Tasks;
 
 namespace Sokoban_en_consola.Elementos
 {
-      class Pared : Escenario
-      {
-        public override char MostrarElemento()
+    class Escenario
+    {
+        public virtual char MostrarElemento()
         {
-            return '#';
+            return ' ';
         }
-        public override bool PuedoCaminar()
+        public virtual bool PuedoCaminar()
         {
-            return false;
+            return PuedoCaminar(); 
         }
-      }
+    }
 }

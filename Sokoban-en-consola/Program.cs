@@ -10,6 +10,10 @@ namespace Sokoban_en_consola
     {
         static void Main(string[] args)
         {
+            Nivel nivel = new Nivel();
+            nivel.Nivel_01();
+
+            Console.ReadKey();
         }
     }
 }
