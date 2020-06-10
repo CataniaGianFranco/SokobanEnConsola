@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Sokoban_en_consola.Elementos
 {
-    public class Piso : GameObject
+    public class Jugador : GameObject
     {
-        public override char MostrarElemento() { return ' '; }
-        public override bool PuedoCaminar() { return true; }
+        public override char MostrarElemento() { return 'x'; }
+        public override bool PuedoCaminar() { return true; }    
     }
 }

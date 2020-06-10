@@ -7,9 +7,10 @@ using System.Threading.Tasks;
 
 namespace Sokoban_en_consola.Elementos
 {
-    public class Pared : GameObject
+    public class GameObject
     {
-        public override char MostrarElemento() { return '#'; }
-        public override bool PuedoCaminar() { return false; }
+        public Posicion posicion;
+        public virtual char MostrarElemento() { return ' '; }
+        public virtual bool PuedoCaminar() { return PuedoCaminar(); }                
     }
 }

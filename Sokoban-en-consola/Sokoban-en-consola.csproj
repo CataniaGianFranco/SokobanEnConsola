@@ -43,10 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Elementos\Escenario.cs" />
+    <Compile Include="Elementos\GameObject.cs" />
+    <Compile Include="Elementos\Jugador.cs" />
     <Compile Include="Elementos\Pared.cs" />
     <Compile Include="Elementos\Piso.cs" />
+    <Compile Include="Escenario_01.cs" />
     <Compile Include="Nivel.cs" />
+    <Compile Include="Posicion.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
