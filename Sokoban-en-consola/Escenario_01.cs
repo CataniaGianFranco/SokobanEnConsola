@@ -15,6 +15,7 @@ namespace Sokoban_en_consola
         public void Inicio()
         {
             CargarEscenario();
+            CargarPosicion();
             MostrarEscenario();
         }
         private void CargarEscenario()
@@ -24,6 +25,16 @@ namespace Sokoban_en_consola
             gameObject[1, 0] = new Pared(); gameObject[1, 1] = new Jugador(); gameObject[1, 2] = new Piso();  gameObject[1, 3] = new Pared();
             gameObject[2, 0] = new Pared(); gameObject[2, 1] = new Piso();    gameObject[2, 2] = new Piso();  gameObject[2, 3] = new Pared();
             gameObject[3, 0] = new Pared(); gameObject[3, 1] = new Pared();   gameObject[3, 2] = new Pared(); gameObject[3, 3] = new Pared();
+        }
+        private void CargarPosicion()
+        {
+            for (int fila = 0; fila < 4; fila++)
+            {
+                for (int columna = 0; columna < 4; columna++)
+                {
+                    gameObject[fila, columna].posicion = new Posicion(fila, columna);
+                }
+            }
         }
         private void MostrarEscenario()
         {

@@ -9,6 +9,7 @@ namespace Sokoban_en_consola
 {
     public class Nivel
     {
+        //Constructor
         public Nivel() { }
 
         Escenario_01 escenario_01 = new Escenario_01();
