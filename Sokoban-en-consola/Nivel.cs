@@ -15,7 +15,7 @@ namespace Sokoban_en_consola
         Escenario_01 escenario_01 = new Escenario_01();
         public void CargarEscenario_01()
         {
-            escenario_01.Inicio();
+            escenario_01.Actualizar();
         }
     }
 }

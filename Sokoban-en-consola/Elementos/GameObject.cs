@@ -9,8 +9,8 @@ namespace Sokoban_en_consola.Elementos
 {
     public class GameObject
     {
-        public Posicion posicion;
+        public Posicion posicion = null;
         public virtual char MostrarElemento() { return ' '; }
-        public virtual bool PuedoCaminar() { return PuedoCaminar(); }                
+        public virtual bool PuedoCaminar() { return PuedoCaminar(); }       
     }
 }
