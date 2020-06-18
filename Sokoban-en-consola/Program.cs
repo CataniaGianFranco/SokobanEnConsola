@@ -12,8 +12,6 @@ namespace Sokoban_en_consola
         {
             Nivel nivel = new Nivel();
             nivel.CargarEscenario_01();
-
-           // Console.ReadKey();
         }
     }
 }

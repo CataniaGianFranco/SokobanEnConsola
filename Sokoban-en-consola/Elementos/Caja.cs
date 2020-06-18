@@ -1,16 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.Remoting.Messaging;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Sokoban_en_consola.Elementos
 {
-    public class Pared : GameObject
+    public class Caja : GameObject
     {
-        public override bool PuedoEmpujar() { return false; }
-        public override char MostrarElemento() { return '#'; }
+        public override bool PuedeMoverse() { return true; }
         public override bool PuedoCaminar() { return false; }
+        public override bool PuedoEmpujar() { return true; }
+        public override char MostrarElemento() { return 'o'; }
     }
 }
