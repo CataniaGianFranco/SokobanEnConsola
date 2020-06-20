@@ -33,17 +33,17 @@ namespace Sokoban_en_consola
             //Se carga los objetos a cada posición.
             gameObject[0, 0] = new Vacio(); gameObject[0, 1] = new Vacio();   gameObject[0, 2] = new Pared(); gameObject[0, 3] = new Pared(); gameObject[0, 4] = new Pared();   gameObject[0, 5] = new Vacio();  gameObject[0, 6] = new Vacio(); gameObject[0, 7] = new Vacio();
                                                                
-            gameObject[1, 0] = new Vacio(); gameObject[1, 1] = new Vacio();   gameObject[1, 2] = new Pared(); gameObject[1, 3] = new Piso();  gameObject[1, 4] = new Pared();   gameObject[1, 5] = new Vacio();  gameObject[1, 6] = new Vacio(); gameObject[1, 7] = new Vacio();
+            gameObject[1, 0] = new Vacio(); gameObject[1, 1] = new Vacio();   gameObject[1, 2] = new Pared(); gameObject[1, 3] = new Destino();  gameObject[1, 4] = new Pared();   gameObject[1, 5] = new Vacio();  gameObject[1, 6] = new Vacio(); gameObject[1, 7] = new Vacio();
                                                                
             gameObject[2, 0] = new Vacio(); gameObject[2, 1] = new Vacio();   gameObject[2, 2] = new Pared(); gameObject[2, 3] = new Piso();  gameObject[2, 4] = new Pared();   gameObject[2, 5] = new Pared();  gameObject[2, 6] = new Pared(); gameObject[2, 7] = new Pared();
             
-            gameObject[3, 0] = new Pared(); gameObject[3, 1] = new Pared();   gameObject[3, 2] = new Pared(); gameObject[3, 3] = new Caja();  gameObject[3, 4] = new Piso();    gameObject[3, 5] = new Caja();   gameObject[3, 6] = new Piso(); gameObject[3, 7] = new Pared();
+            gameObject[3, 0] = new Pared(); gameObject[3, 1] = new Pared();   gameObject[3, 2] = new Pared(); gameObject[3, 3] = new Caja();  gameObject[3, 4] = new Piso();    gameObject[3, 5] = new Caja();   gameObject[3, 6] = new Destino(); gameObject[3, 7] = new Pared();
            
-            gameObject[4, 0] = new Pared(); gameObject[4, 1] = new Vacio();   gameObject[4, 2] = new Piso(); gameObject[4, 3] = new Caja();   gameObject[4, 4] = new Jugador(); gameObject[4, 5] = new Piso();   gameObject[4, 6] = new Pared(); gameObject[4, 7] = new Pared();
+            gameObject[4, 0] = new Pared(); gameObject[4, 1] = new Destino();   gameObject[4, 2] = new Piso(); gameObject[4, 3] = new Caja();   gameObject[4, 4] = new Jugador(); gameObject[4, 5] = new Piso();   gameObject[4, 6] = new Pared(); gameObject[4, 7] = new Pared();
            
             gameObject[5, 0] = new Pared(); gameObject[5, 1] = new Pared();   gameObject[5, 2] = new Pared(); gameObject[5, 3] = new Pared(); gameObject[5, 4] = new Pared();   gameObject[5, 5] = new Caja();   gameObject[5, 6] = new Pared(); gameObject[5, 7] = new Vacio();
            
-            gameObject[6, 0] = new Vacio(); gameObject[6, 1] = new Vacio();   gameObject[6, 2] = new Vacio(); gameObject[6, 3] = new Vacio(); gameObject[6, 4] = new Pared();   gameObject[6, 5] = new Piso();   gameObject[6, 6] = new Pared(); gameObject[6, 7] = new Vacio();
+            gameObject[6, 0] = new Vacio(); gameObject[6, 1] = new Vacio();   gameObject[6, 2] = new Vacio(); gameObject[6, 3] = new Vacio(); gameObject[6, 4] = new Pared();   gameObject[6, 5] = new Destino();   gameObject[6, 6] = new Pared(); gameObject[6, 7] = new Vacio();
            
             gameObject[7, 0] = new Vacio(); gameObject[7, 1] = new Vacio();   gameObject[7, 2] = new Vacio(); gameObject[7, 3] = new Vacio(); gameObject[7, 4] = new Pared();   gameObject[7, 5] = new Pared();  gameObject[7, 6] = new Pared(); gameObject[7, 7] = new Vacio();
 

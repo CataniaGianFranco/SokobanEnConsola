@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Elementos\Caja.cs" />
+    <Compile Include="Elementos\Destino.cs" />
     <Compile Include="Elementos\GameObject.cs" />
     <Compile Include="Elementos\Jugador.cs" />
     <Compile Include="Elementos\Pared.cs" />
